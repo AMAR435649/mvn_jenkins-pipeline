@@ -1,7 +1,7 @@
 pipeline{
     tools{
         jdk 'JAVA_HOME'
-        maven 'M2'
+        maven 'maven-install'
     }
     agent any
     stages{
